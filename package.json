@@ -7,7 +7,7 @@
     "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "author": "Pawel Gratkowski",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "node-sass": "^4.13.0"
   }
