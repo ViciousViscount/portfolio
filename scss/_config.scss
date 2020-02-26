@@ -2,7 +2,7 @@ $primary-color: #273c75;
 $secondary-color: #fbc531;
 $show-home-image: true;
 $home-image: url("../images/kill-mankind.jpg");
-$background-opacity: 1;
+$background-opacity: 0;
 $menu-opacity: 1;
 
 @mixin easeOut {
@@ -11,10 +11,8 @@ $menu-opacity: 1;
 @mixin background {
   @if ($show-home-image) {
     &#bg-img {
-      background: #333;
-      background-attachment: fixed;
-      background-size: contain;
-      background-repeat: no-repeat;
+      background-image: url("../images/fake-brick.png");
+      background-repeat: repeat;
 
       &:after {
         content: "";

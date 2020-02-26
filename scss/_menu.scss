@@ -90,7 +90,7 @@
       height: 260px;
       background: url("../images/portrait.jpg");
       border-radius: 50%;
-      border: solid 4px $secondary-color;
+      border: solid 2px $secondary-color;
     }
   }
 
@@ -114,7 +114,7 @@
     font-size: 22px;
     text-transform: uppercase;
     padding: 1rem 0;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
     text-decoration: none;
     @include easeOut;
