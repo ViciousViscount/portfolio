@@ -52,9 +52,10 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 260px;
-      height: 260px;
+      width: 240px;
+      height: 240px;
       background: url("../images/portrait.jpg");
+      background-size: cover;
       border-radius: 50%;
       border: solid 2px #fbc531; }
   .menu .nav-item {
@@ -94,7 +95,7 @@
     align-items: center;
     text-align: center; }
     main .lg-heading {
-      line-height: 1;
+      line-height: 1.1;
       margin-bottom: 1rem; }
   ul.menu-nav,
   div.menu-branding {
@@ -110,7 +111,11 @@
     font-size: 24px; }
   .menu-branding {
     height: 25vh;
-    transform: translate3d(100%, 0, 0); } }
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      width: 140px;
+      height: 140px;
+      background-position: center; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
